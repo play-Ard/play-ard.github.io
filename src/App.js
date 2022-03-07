@@ -11,6 +11,7 @@ import Header from './components/Header';
 import Millionaire from './pages/Millionaire';
 import Temp from './pages/Temp'
 import Games from './pages/Games'
+import Documentation from './pages/Documentation';
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
               <Route path='/' element={<HomePage/>}/>
               <Route path='/millionaire' element={<Millionaire/>}/>
               <Route path='/layoutdesigner' element={<LayoutDesigner/>}/>
+              <Route path='/documentation' element={<Documentation/>}/>
               <Route path='/games' element={<Games/>}/>
             </Routes>
         </BrowserRouter>
