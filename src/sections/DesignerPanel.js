@@ -8,9 +8,6 @@ import XMLArea from "./XMLArea";
 
 const DesignerPanel = () => {
 
-    
-
-
     return (
         <React.Fragment>
             <div>
