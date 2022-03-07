@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'silkscreen';
+  src: url('../fonts/slkscr.ttf') format('truetype');;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+:root{
+  --main-bg-color-dark: #293c43;
+  --main-bg-color-light:#749592;
+  --panel-bg-color: #749592;
+  --widget-bg-color: #525162;
+  --widget-over-color: #353542;
+  --input-bg-color: #446668;
+  --text-color: #dfdfdf;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*{
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+  font-family: 'silkscreen', monospace;
+  color: var(--text-color);
+  background-color: var(--main-bg-color-dark) !important;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.main-frame {
+
+  color: var(--text-color);
+  width: 63%;
+  height: 63%;
+ 
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 7%;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.panel {
+
+  padding-left: 10%;
+  padding-right: 10%;
+  padding: 10%;
+  background-color: var(--panel-bg-color) !important;
+  
 }
+
+.interrior-section {
+
+  background-color: var(--panel-bg-color) !important;
+
+
+}
+
+.grow { transition: all .2s ease-in-out !important; }
+.grow:hover { transform: scale(1.2) !important; }
+
+.myClassName {
+
+    
+
+}
+
+
+

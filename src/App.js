@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { ProjectsContext } from './Context/ProjectsContext';
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
+import LayoutDesigner from './pages/LayoutDesigner'
+
+import {BrowserRouter,  Routes, Route } from 'react-router-dom'
+import HomePage from './pages/HomePage';
+import Header from './components/Header';
+import Millionaire from './pages/Millionaire';
+import Temp from './pages/Temp'
+import Games from './pages/Games'
+
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+   
+        <BrowserRouter>
+            <Routes>
+              <Route path='/' element={<HomePage/>}/>
+              <Route path='/millionaire' element={<Millionaire/>}/>
+              <Route path='/layoutdesigner' element={<LayoutDesigner/>}/>
+              <Route path='/games' element={<Games/>}/>
+            </Routes>
+        </BrowserRouter>
+    
+    </React.Fragment>
   );
 }
 
