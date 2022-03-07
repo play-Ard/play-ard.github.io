@@ -14,14 +14,7 @@ const Temp = () => {
                     </button>    
             </div>
             
-        
-            
         </div>
-        
-
-
-
-
 
     </div>
   )
