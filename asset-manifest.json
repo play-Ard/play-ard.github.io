@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-playard/static/css/main.eb611b69.css",
+    "main.js": "/react-playard/static/js/main.313afd6e.js",
+    "static/js/787.c5fd6eb3.chunk.js": "/react-playard/static/js/787.c5fd6eb3.chunk.js",
+    "static/media/retro-game .jpg": "/react-playard/static/media/retro-game .43ee71d8e1b6eac44ad6.jpg",
+    "static/media/slkscr.ttf": "/react-playard/static/media/slkscr.2f28a155fd8444a957f2.ttf",
+    "index.html": "/react-playard/index.html",
+    "main.eb611b69.css.map": "/react-playard/static/css/main.eb611b69.css.map",
+    "main.313afd6e.js.map": "/react-playard/static/js/main.313afd6e.js.map",
+    "787.c5fd6eb3.chunk.js.map": "/react-playard/static/js/787.c5fd6eb3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb611b69.css",
+    "static/js/main.313afd6e.js"
+  ]
+}
