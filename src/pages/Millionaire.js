@@ -1,8 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from '../components/Header'
 import Widget from '../components/Widget'
 
 const Millionaire = () => {
+
+    const [data, setData] = useState([{}])
+
+    useEffect(() => {
+
+        fetch("http://127.0.0.1:5000/millionaire").then(
+            res => res.json()
+        ).then(
+            data => {
+                    setData(data)
+                    console.log(data)
+            }
+        )
+
+    }
+
+    )
+
   return (
     <div>
 

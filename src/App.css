@@ -57,7 +57,8 @@ body{
 }
 
 .grow { transition: all .2s ease-in-out !important; }
-.grow:hover { transform: scale(1.2) !important; }
+.grow:hover { transform: scale(1.2) !important;
+              }
 
 /* .vertical-menu {
   width: 100%;
@@ -65,5 +66,10 @@ body{
   overflow-y: auto;
 } */
 
+.background-changer:hover {
 
+  border: 1px, #dfdfdf;
+  border-style: dotted;
+
+}
 

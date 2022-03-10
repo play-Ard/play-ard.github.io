@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { ProjectsContext } from '../Context/ProjectsContext';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
+import Button from 'react-bootstrap'
 import ComponentsPanel from '../sections/ComponentsPanel';
 import DesignerPanel from '../sections/DesignerPanel';
 import CollapsibleSidebar from '../sections/CollapsibleSidebar';
@@ -26,10 +27,13 @@ const LayoutDesigner = () => {
     const [widgetValue, setWidgetValue] = useState(0)
 
   return (
-    <div>
+    <div className=''>
       <Header></Header>
+      
       <ProjectsContext.Provider value={{ setScreenSize, screenSize, widgetValue, setWidgetValue }}>
+      <button className='btn btn-primary'> What's the designer ?</button>
       <div className="main-frame">
+      
       
         <div className="row">
           <div className="col-4 components-panel">
