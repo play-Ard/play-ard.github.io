@@ -12,7 +12,7 @@ const HomePage = () => {
       <div className="main-frame">
         <div className="row">
           <div className="col">
-            <h1>ESP32 BASED RETRO GAME CONSOLE</h1>
+            <h1>ESP32 / Arduino BASED RETRO GAME CONSOLE</h1>
           </div>
         </div>
         <br />

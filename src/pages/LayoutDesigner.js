@@ -31,10 +31,14 @@ const LayoutDesigner = () => {
       <Header></Header>
       
       <ProjectsContext.Provider value={{ setScreenSize, screenSize, widgetValue, setWidgetValue }}>
-      <button className='btn btn-primary'> What's the designer ?</button>
+      
       <div className="main-frame">
-      
-      
+        <div className="row text-center">
+          <div className="col">
+            <button className='btn btn-primary'> What's the designer ?</button>
+          </div>
+      </div>
+      <br />
         <div className="row">
           <div className="col-4 components-panel">
             
