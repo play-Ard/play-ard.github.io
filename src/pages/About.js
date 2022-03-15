@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
-
+import Footer from '../components/Footer'
 const About = () => {
   return (
     <div>
@@ -12,14 +12,16 @@ const About = () => {
         <div className="card">
         <div class="card-body text-center">
             <div style={{color:'black'}}className="card-title text-center">
-                        What is playArd ?
+                       <h2>WHAT IS PLAYARD ?</h2>
             </div>
-            <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p style={{color:'black'}} class="card-text text-center">
+It is an open-source educational project that aims to impose today's technologies on people in a fun way and they can be involved in the development of the project.</p>
+            <a style={{color:'white', backgroundColor:"black"}} href="#" class="btn btn-primary">Documentation</a>
         </div>
         </div>    
             
         </div>
+        <Footer></Footer>
     </div>
   )
 }

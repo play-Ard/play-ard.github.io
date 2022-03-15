@@ -8,7 +8,7 @@ import ComponentsPanel from '../sections/ComponentsPanel';
 import DesignerPanel from '../sections/DesignerPanel';
 import CollapsibleSidebar from '../sections/CollapsibleSidebar';
 import Header from '../components/Header'
-
+import Footer from "../components/Footer";
 const components = [
   { name: "Pixel", id: "pixelID" },
   { name: "Layout", id: "layoutID" },
@@ -35,7 +35,7 @@ const LayoutDesigner = () => {
       <div className="main-frame">
         <div className="row text-center">
           <div className="col">
-            <button className='btn btn-primary'> What's the designer ?</button>
+            <button className='btn bg-dark' style={{color:"white"}}> What's the designer ?</button>
           </div>
       </div>
       <br />
@@ -55,7 +55,7 @@ const LayoutDesigner = () => {
        
       </div>
       </ProjectsContext.Provider>  
-
+<Footer></Footer>
     </div>
   )
 }

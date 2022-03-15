@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "../components/Header";
 import retro from "./retro-game .jpg";
+import logo from "./Black MC.svg"
 import MCarousel from '../components/MCarousel'
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
@@ -19,7 +21,7 @@ const HomePage = () => {
         <br />
         <div className="row align-items-center">
           <div className="col ">
-          <a href="/games">
+          <a href="/about">
             <button className="bg-transparent " style={{ border: "None" }}>
                 
               <div style={{ border: "0" }} className="card bg-transparent grow">
@@ -27,20 +29,21 @@ const HomePage = () => {
                   <img
                     style={{
                       filter: "brightness(0) invert(1)",
-                      width: "35%",
+                      width: "105%",
                       textAlign: "center",
                     }}
                     className="img-fluid grov"
-                    src={retro}
+                    src={logo}
                     alt="Card image cap"
                   />
                 </div>
+
                 <br />
-                <h5 style={{ color: "white" }} className="card-title">
+
+              </div>
+              <h5 style={{ color: "white" }} className="card-title">
                   Retro Game Console
                 </h5>
-              </div>
-              
             </button>
             </a>
           </div>
@@ -54,7 +57,7 @@ const HomePage = () => {
                 className="btn "
                 style={{ borderColor: "#B7CDD5", color: "#B7CDD5" }}
               >
-                Github
+                GETTING STARTED
               </button>
             </a>
           </div>
@@ -64,13 +67,28 @@ const HomePage = () => {
                 className="btn -"
                 style={{ borderColor: "#B7CDD5", color: "#B7CDD5" }}
               >
-                Instagram
+                DOCUMENTATION
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className="row">
+
+          <div className="col grow">
+                  <br />
+          <a target="_blank" href="/shop">
+              <button
+                className="btn "
+                style={{ borderColor: "#B7CDD5", color: "#B7CDD5" }}
+              >
+                BUY NOW !
               </button>
             </a>
           </div>
         </div>
 
       </div>
+      <Footer></Footer>
     </div>
   );
 };

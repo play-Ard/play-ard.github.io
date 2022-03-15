@@ -14,6 +14,8 @@ import Games from './pages/Games'
 import About from './pages/About'
 import Documentation from './pages/Documentation';
 import MakeaGame from './pages/MakeaGame'
+import Contact from './pages/Contact'
+import Shop from './pages/Shop'
 function App() {
   
   return (
@@ -27,6 +29,8 @@ function App() {
               <Route path='/layoutdesigner' element={<LayoutDesigner/>}/>
               <Route path='/documentation' element={<Documentation/>}/>
               <Route path='/makeagame' element={<MakeaGame/>}/>
+              <Route path='/contact' element={<Contact/>}/>
+              <Route path='/shop' element={<Shop/>}/>
               <Route path='/games' element={<Games/>}/>
             </Routes>
         </BrowserRouter>
