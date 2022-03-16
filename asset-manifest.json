@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3d6a6cd.css",
-    "main.js": "/static/js/main.63798855.js",
-    "static/js/787.ceaac401.chunk.js": "/static/js/787.ceaac401.chunk.js",
-    "static/media/retro-game .jpg": "/static/media/retro-game .43ee71d8e1b6eac44ad6.jpg",
-    "static/media/slkscr.ttf": "/static/media/slkscr.2f28a155fd8444a957f2.ttf",
-    "static/media/Black MC.svg": "/static/media/Black MC.cd028a87d8a6c5eec88da73695466e63.svg",
-    "static/media/Formal.svg": "/static/media/Formal.71f7a653cc753c10e3c255a7a6bd1faa.svg",
-    "index.html": "/index.html",
-    "main.a3d6a6cd.css.map": "/static/css/main.a3d6a6cd.css.map",
-    "main.63798855.js.map": "/static/js/main.63798855.js.map",
-    "787.ceaac401.chunk.js.map": "/static/js/787.ceaac401.chunk.js.map"
+    "main.css": "/play-ard.github.io/static/css/main.62c2805a.css",
+    "main.js": "/play-ard.github.io/static/js/main.16c0a414.js",
+    "static/js/787.ceaac401.chunk.js": "/play-ard.github.io/static/js/787.ceaac401.chunk.js",
+    "static/media/retro-game .jpg": "/play-ard.github.io/static/media/retro-game .43ee71d8e1b6eac44ad6.jpg",
+    "static/media/slkscr.ttf": "/play-ard.github.io/static/media/slkscr.2f28a155fd8444a957f2.ttf",
+    "static/media/Black MC.svg": "/play-ard.github.io/static/media/Black MC.cd028a87d8a6c5eec88da73695466e63.svg",
+    "static/media/Formal.svg": "/play-ard.github.io/static/media/Formal.71f7a653cc753c10e3c255a7a6bd1faa.svg",
+    "index.html": "/play-ard.github.io/index.html",
+    "main.62c2805a.css.map": "/play-ard.github.io/static/css/main.62c2805a.css.map",
+    "main.16c0a414.js.map": "/play-ard.github.io/static/js/main.16c0a414.js.map",
+    "787.ceaac401.chunk.js.map": "/play-ard.github.io/static/js/787.ceaac401.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3d6a6cd.css",
-    "static/js/main.63798855.js"
+    "static/css/main.62c2805a.css",
+    "static/js/main.16c0a414.js"
   ]
 }
