@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a3d6a6cd.css",
-    "main.js": "/static/js/main.82d8b48f.js",
+    "main.js": "/static/js/main.48d2716d.js",
     "static/js/787.c5fd6eb3.chunk.js": "/static/js/787.c5fd6eb3.chunk.js",
     "static/media/retro-game .jpg": "/static/media/retro-game .43ee71d8e1b6eac44ad6.jpg",
     "static/media/slkscr.ttf": "/static/media/slkscr.2f28a155fd8444a957f2.ttf",
@@ -9,11 +9,11 @@
     "static/media/Formal.svg": "/static/media/Formal.71f7a653cc753c10e3c255a7a6bd1faa.svg",
     "index.html": "/index.html",
     "main.a3d6a6cd.css.map": "/static/css/main.a3d6a6cd.css.map",
-    "main.82d8b48f.js.map": "/static/js/main.82d8b48f.js.map",
+    "main.48d2716d.js.map": "/static/js/main.48d2716d.js.map",
     "787.c5fd6eb3.chunk.js.map": "/static/js/787.c5fd6eb3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3d6a6cd.css",
-    "static/js/main.82d8b48f.js"
+    "static/js/main.48d2716d.js"
   ]
 }
