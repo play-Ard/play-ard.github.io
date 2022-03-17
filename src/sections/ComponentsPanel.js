@@ -8,7 +8,7 @@ const ComponentsPanel = ({components}) => {
     <React.Fragment>
       <div >
         <h4> Components Panel</h4>
-            <div className="panel border border-primary">
+            <div className="panel border">
                 <div className="row">
                     {components.map((comp) => (
                       

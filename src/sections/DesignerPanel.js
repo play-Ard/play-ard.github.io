@@ -22,7 +22,7 @@ const DesignerPanel = () => {
                        
                     </div>
                 </div>
-                <div className="interrior-section border border-primary">
+                <div className="interrior-section border ">
                     <div className="row">
                         <div className="col">
                             <button className="btn btn-success btn-lg"> COPY XML </button>

@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "../components/Header";
-import retro from "./retro-game .jpg";
-import logo from "./Black MC.svg"
+
+import logo from "./finaaaaal.gif"
 import MCarousel from '../components/MCarousel'
 import Footer from "../components/Footer";
-
+import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
     <div className="text-center">
@@ -14,27 +14,26 @@ const HomePage = () => {
       <div className="main-frame">
         <div className="row">
           <div className="col">
-            <h1>ESP32 / Arduino BASED RETRO GAME CONSOLE</h1>
+            <h1>OPEN SOURCE RETRO GAME CONSOLE</h1>
           </div>
         </div>
-        <br />
-        <br />
-        <div className="row align-items-center">
+
+        <div className="row align-items-center ">
           <div className="col ">
-          <a href="/about">
+          <Link to="/about">
             <button className="bg-transparent " style={{ border: "None" }}>
                 
               <div style={{ border: "0" }} className="card bg-transparent grow">
                 <div className="d-flex justify-content-center">
                   <img
                     style={{
-                      filter: "brightness(0) invert(1)",
-                      width: "105%",
-                      textAlign: "center",
+
                     }}
                     className="img-fluid grov"
                     src={logo}
-                    alt="Card image cap"
+                    alt="loading..."
+                    width="400" 
+                    alt="loading..." 
                   />
                 </div>
 
@@ -45,14 +44,14 @@ const HomePage = () => {
                   Retro Game Console
                 </h5>
             </button>
-            </a>
+            </Link>
           </div>
         </div>
         <br />
         <br />
         <div className="row">
           <div className="col grow">
-            <a target="_blank" href="https://github.com/play-Ard">
+            <a href="https://github.com/play-Ard/playard">
               <button
                 className="btn "
                 style={{ borderColor: "#B7CDD5", color: "#B7CDD5" }}
@@ -62,28 +61,30 @@ const HomePage = () => {
             </a>
           </div>
           <div className="col grow">
-            <a target="_blank" href="https://www.instagram.com/erhanyme">
+            <Link to="/about">
               <button
                 className="btn -"
                 style={{ borderColor: "#B7CDD5", color: "#B7CDD5" }}
               >
-                DOCUMENTATION
+               What is playard ? 
               </button>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="row">
 
           <div className="col grow">
                   <br />
-          <a target="_blank" href="/shop">
+
+                  <Link style={{color:'black', textDecoration: 'none'}} className="m-2" to='/shop'>
               <button
                 className="btn "
                 style={{ borderColor: "#B7CDD5", color: "#B7CDD5" }}
               >
                 BUY NOW !
               </button>
-            </a>
+              </Link>
+    
           </div>
         </div>
 

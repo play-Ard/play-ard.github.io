@@ -3,7 +3,6 @@
   src: url('../fonts/slkscr.ttf') format('truetype');;
 }
 
-
 :root{
   --main-bg-color-dark: #293c43;
   --main-bg-color-light:#749592;
@@ -36,7 +35,7 @@ body{
   left: 0;
   right: 0;
   margin: auto;
-  margin-top: 3%;
+  margin-top: 1%;
 
 }
 
@@ -60,8 +59,55 @@ body{
 .grow:hover { transform: scale(1.2) !important;
               }
 
-/* .vertical-menu {
-  width: 100%;
-  height: 500px;
-  overflow-y: auto;
-} */
+.loading span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.0em;
+  height: 1.25em;
+  margin: .19em;
+  background: #ffffff;
+  border-radius: .6em;
+  animation: loading 1s infinite alternate;
+}
+
+/*
+ * Dots Colors
+ * Smarter targeting vs nth-of-type?
+ */
+.loading span:nth-of-type(2) {
+  background: #e9eaeb;
+  animation-delay: 0.2s;
+}
+.loading span:nth-of-type(3) {
+  background: #9fa1a1;
+  animation-delay: 0.4s;
+}
+.loading span:nth-of-type(4) {
+  background: #424242;
+  animation-delay: 0.6s;
+}
+.loading span:nth-of-type(5) {
+  background: #2a2b2a;
+  animation-delay: 0.8s;
+}
+.loading span:nth-of-type(6) {
+  background: #161616;
+  animation-delay: 1.0s;
+}
+.loading span:nth-of-type(7) {
+  background: #000000;
+  animation-delay: 1.2s;
+}
+
+/*
+ * Animation keyframes
+ * Use transition opacity instead of keyframes?
+ */
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
