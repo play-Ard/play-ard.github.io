@@ -4,12 +4,12 @@ import { ProjectsContext } from '../Context/ProjectsContext';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 import Button from 'react-bootstrap'
-import ComponentsPanel from '../sections/ComponentsPanel';
-import DesignerPanel from '../sections/DesignerPanel';
-import CollapsibleSidebar from '../sections/CollapsibleSidebar';
-import Header from '../components/Header'
-import Footer from "../components/Footer";
-import logo from "./Black MC.svg"
+import ComponentsPanel from '../Sections/ComponentsPanel';
+import DesignerPanel from '../Sections/DesignerPanel';
+import CollapsibleSidebar from '../Sections/CollapsibleSidebar';
+import Header from '../Components/Header'
+import Footer from "../Components/Footer";
+import logo from "../Assets/Black MC.svg"
 const components = [
   { name: "Pixel", id: "pixelID" },
   { name: "Layout", id: "layoutID" },

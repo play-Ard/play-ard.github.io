@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../Components/Header";
 
-import logo from "./finaaaaal.gif"
-import MCarousel from '../components/MCarousel'
-import Footer from "../components/Footer";
+import logo from "../Assets/finaaaaal.gif"
+import MCarousel from '../Components/MCarousel'
+import Footer from "../Components/Footer";
 import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
@@ -33,7 +33,7 @@ const HomePage = () => {
                     src={logo}
                     alt="loading..."
                     width="400" 
-                    alt="loading..." 
+                  
                   />
                 </div>
 

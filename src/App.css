@@ -2,6 +2,10 @@
   font-family: 'silkscreen';
   src: url('../fonts/slkscr.ttf') format('truetype');;
 }
+@font-face {
+  font-family: 'codeFont';
+  src: url('../fonts/SourceCodePro-Light.ttf');
+}
 
 :root{
   --main-bg-color-dark: #293c43;

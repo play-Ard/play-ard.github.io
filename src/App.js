@@ -3,22 +3,23 @@ import { ProjectsContext } from './Context/ProjectsContext';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
-import LayoutDesigner from './pages/LayoutDesigner'
+import LayoutDesigner from './Pages/LayoutDesigner'
 
 import { BrowserRouter,  Routes, Route } from 'react-router-dom'
 import {Redirect } from 'react-router'
 
-import HomePage from './pages/HomePage';
-import Header from './components/Header';
+import HomePage from './Pages/HomePage';
+import Header from './Components/Header';
 
-import Millionaire from './pages/Millionaire';
-import Temp from './pages/Temp'
-import Games from './pages/Games'
-import About from './pages/About'
-import Documentation from './pages/Documentation';
-import MakeaGame from './pages/MakeaGame'
-import Contact from './pages/Contact'
-import Shop from './pages/Shop'
+import Millionaire from './Pages/Millionaire';
+import Temp from './Pages/Temp'
+import Games from './Pages/Games'
+import About from './Pages/About'
+import Documentation from './Pages/Documentation';
+import MakeaGame from './Pages/MakeaGame'
+import Contact from './Pages/Contact'
+import Shop from './Pages/Shop'
+import Education from './Pages/Education/Education';
 function App() {
   console.log(process.env.PUBLIC_URL)
   return (
@@ -35,6 +36,7 @@ function App() {
               <Route exact path= {process.env.PUBLIC_URL + '/games'} element={<Games/>}/>
               <Route exact path= {process.env.PUBLIC_URL + '/documentation'} element={<Documentation/>}/>
               <Route exact path= {process.env.PUBLIC_URL + '/makeagame'} element={<MakeaGame/>}/>
+              <Route exact path= {process.env.PUBLIC_URL + '/education'} element={<Education/>}/>
               <Route exact path=  {process.env.PUBLIC_URL + '/404'} element={<HomePage/>} />
                
             </Routes>

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
-import logoText from "./Formal.svg"
+import logoText from "../Assets/Formal.svg"
 
 
 const Header = () =>
@@ -13,6 +13,7 @@ const Header = () =>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto ">
+      
       <Navbar.Brand className="background-changer grow text-center"href="/">  <img style={{width:'18%'}} src={logoText} alt="" /></Navbar.Brand>
 
         <Link style={{color:'black', textDecoration: 'none'}} className="m-2"to='/about'> About</Link>
@@ -20,7 +21,6 @@ const Header = () =>
         <Link style={{color:'black', textDecoration: 'none'}} className="m-2" to='/documentation'> Documentation</Link>
         <Link style={{color:'black', textDecoration: 'none'}} className="m-2" to='/layoutdesigner'> Designer</Link>
       
-        <Link style={{color:'black', textDecoration: 'none'}} className="m-2" to='/makeagame'> Make A Game </Link>
         <Link style={{color:'black', textDecoration: 'none'}} className="m-2" to='/contact'> Contact </Link>
         <Link style={{color:'black', textDecoration: 'none'}} className="m-2" to='/shop'> Shop </Link>
 
@@ -32,6 +32,7 @@ const Header = () =>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>
+    <Navbar.Brand className="background-changer grow text-center"href="/">  <img style={{width:'18%'}} src={logoText} alt="" /></Navbar.Brand>
   </Container>
 </Navbar>
 </div>
