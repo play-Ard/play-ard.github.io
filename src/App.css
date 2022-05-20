@@ -10,7 +10,9 @@
 :root{
   --main-bg-color-dark: #293c43;
   --main-bg-color-light:#749592;
-  --panel-bg-color: #749592;
+  --panel-bg-color: #,0
+  
+  ;
   --widget-bg-color: #525162;
   --widget-over-color: #353542;
   --input-bg-color: #446668;

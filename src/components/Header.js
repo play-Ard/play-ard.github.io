@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import logoText from "../Assets/Formal.svg"
+import playardEducation from "../Assets/Education - Black (2).svg"
 
 
 const Header = () =>
@@ -32,7 +33,7 @@ const Header = () =>
         </NavDropdown>
       </Nav>
     </Navbar.Collapse>
-    <Navbar.Brand className="background-changer grow text-center"href="/">  <img style={{width:'18%'}} src={logoText} alt="" /></Navbar.Brand>
+    <Navbar.Brand className="background-changer grow text-center"href="https://play-ard.github.io/playard-education/">  <img style={{width:'65%'}} src={playardEducation} alt="" /></Navbar.Brand>
   </Container>
 </Navbar>
 </div>
