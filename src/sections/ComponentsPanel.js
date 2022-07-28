@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import Widget from "../Components/Widget";
+import Widget from "../components/Widget";
 
 const ComponentsPanel = ({components}) => {
   

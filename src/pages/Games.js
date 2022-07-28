@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../Components/Header'
-import MCarousel from '../Components/MCarousel'
-import Footer from "../Components/Footer";
+import Header from '../components/Header'
+import MCarousel from '../components/MCarousel'
+import Footer from "../components/Footer";
 const Games = () => {
   return (
     <div className="text-center">

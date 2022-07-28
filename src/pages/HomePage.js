@@ -1,10 +1,12 @@
 import React from "react";
-import Header from "../Components/Header";
+import Header from "../components/Header";
 
-import logo from "../Assets/finaaaaal.gif"
-import MCarousel from '../Components/MCarousel'
-import Footer from "../Components/Footer";
-import { Link } from 'react-router-dom';
+import logo from "./gifLogo.gif"
+
+
+import MCarousel from '../components/MCarousel'
+import Footer from "../components/Footer";
+
 const HomePage = () => {
   return (
     <div className="text-center">
@@ -20,20 +22,20 @@ const HomePage = () => {
 
         <div className="row align-items-center ">
           <div className="col ">
-          <Link to="/about">
+          <a href="/about">
             <button className="bg-transparent " style={{ border: "None" }}>
                 
               <div style={{ border: "0" }} className="card bg-transparent grow">
                 <div className="d-flex justify-content-center">
                   <img
                     style={{
-
+                    
+             
                     }}
                     className="img-fluid grov"
                     src={logo}
-                    alt="loading..."
+                    alt="Card image cap"
                     width="400" 
-                  
                   />
                 </div>
 
@@ -44,14 +46,14 @@ const HomePage = () => {
                   Retro Game Console
                 </h5>
             </button>
-            </Link>
+            </a>
           </div>
         </div>
         <br />
         <br />
         <div className="row">
           <div className="col grow">
-            <a href="https://github.com/play-Ard/playard">
+            <a target="_blank" href="https://github.com/play-Ard">
               <button
                 className="btn "
                 style={{ borderColor: "#B7CDD5", color: "#B7CDD5" }}
@@ -61,30 +63,28 @@ const HomePage = () => {
             </a>
           </div>
           <div className="col grow">
-            <Link to="/about">
+            <a target="_blank" href="/about">
               <button
                 className="btn -"
                 style={{ borderColor: "#B7CDD5", color: "#B7CDD5" }}
               >
                What is playard ? 
               </button>
-            </Link>
+            </a>
           </div>
         </div>
         <div className="row">
 
           <div className="col grow">
                   <br />
-
-                  <Link style={{color:'black', textDecoration: 'none'}} className="m-2" to='/shop'>
+          <a target="_blank" href="/shop">
               <button
                 className="btn "
                 style={{ borderColor: "#B7CDD5", color: "#B7CDD5" }}
               >
                 BUY NOW !
               </button>
-              </Link>
-    
+            </a>
           </div>
         </div>
 

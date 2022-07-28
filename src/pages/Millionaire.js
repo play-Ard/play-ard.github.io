@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Header from '../Components/Header'
-import Widget from '../Components/Widget'
+import Header from '../components/Header'
+import Widget from '../components/Widget'
 
 const Millionaire = () => {
 

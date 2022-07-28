@@ -4,12 +4,11 @@ import { ProjectsContext } from '../Context/ProjectsContext';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 import Button from 'react-bootstrap'
-import ComponentsPanel from '../Sections/ComponentsPanel';
-import DesignerPanel from '../Sections/DesignerPanel';
-import CollapsibleSidebar from '../Sections/CollapsibleSidebar';
-import Header from '../Components/Header'
-import Footer from "../Components/Footer";
-import logo from "../Assets/Black MC.svg"
+import ComponentsPanel from '../sections/ComponentsPanel';
+import DesignerPanel from '../sections/DesignerPanel';
+import CollapsibleSidebar from '../sections/CollapsibleSidebar';
+import Header from '../components/Header'
+import Footer from "../components/Footer";
 const components = [
   { name: "Pixel", id: "pixelID" },
   { name: "Layout", id: "layoutID" },
@@ -29,37 +28,7 @@ const LayoutDesigner = () => {
 
   return (
     <div className=''>
-      
       <Header></Header>
-
-<div style={{border:'0'}}className="card bg-transparent">
-<div class="card-body text-center">
-
-    <img                     style={{
-          filter: "brightness(0) invert(1)",
-          width: "35%",
-          textAlign: "center",
-        }} className="card-img-top grow" src={logo} alt="Card image cap"></img>
-
-    <div className="loading">
-        <h2>COMING SOON</h2>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-</div>
-</div>    
-    
-
-<br />
-<br />
-<Footer></Footer>
-      {/* <Header></Header>
       
       <ProjectsContext.Provider value={{ setScreenSize, screenSize, widgetValue, setWidgetValue }}>
       
@@ -86,7 +55,7 @@ const LayoutDesigner = () => {
        
       </div>
       </ProjectsContext.Provider>  
-      <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   )
 }
