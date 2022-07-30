@@ -1,7 +1,7 @@
 import React from 'react'
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import logo from "./Black MC.svg"
+import Footer from "../Layouts/Footer";
+import Header from "../Layouts/Header";
+import logo from "../Assets/Black MC.svg"
 
 const Shop = () => {
   return (

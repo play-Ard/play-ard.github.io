@@ -7,8 +7,8 @@ import Button from 'react-bootstrap'
 import ComponentsPanel from '../sections/ComponentsPanel';
 import DesignerPanel from '../sections/DesignerPanel';
 import CollapsibleSidebar from '../sections/CollapsibleSidebar';
-import Header from '../components/Header'
-import Footer from "../components/Footer";
+import Header from '../Layouts/Header'
+import Footer from "../Layouts/Footer";
 const components = [
   { name: "Pixel", id: "pixelID" },
   { name: "Layout", id: "layoutID" },

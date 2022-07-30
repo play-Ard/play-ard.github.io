@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../Layouts/Header";
 
-import logo from "./gifLogo.gif"
+import logo from "../Assets/gifLogo.gif"
 
 
 import MCarousel from '../components/MCarousel'
-import Footer from "../components/Footer";
+import Footer from "../Layouts/Footer";
 
 const HomePage = () => {
   return (
@@ -13,12 +13,12 @@ const HomePage = () => {
      
         <Header></Header>
   
-      <div className="main-frame">
-        <div className="row">
-          <div className="col">
-            <h1>OPEN SOURCE RETRO GAME CONSOLE</h1>
+        <div className="main-frame">
+          <div className="row">
+            <div className="col">
+              <h1>OPEN SOURCE RETRO GAME CONSOLE</h1>
+            </div>
           </div>
-        </div>
 
         <div className="row align-items-center ">
           <div className="col ">
@@ -30,7 +30,6 @@ const HomePage = () => {
                   <img
                     style={{
                     
-             
                     }}
                     className="img-fluid grov"
                     src={logo}

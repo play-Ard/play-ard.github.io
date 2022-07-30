@@ -1,0 +1,40 @@
+:root{
+    --main-bg-color-dark: #293c43;
+    --main-bg-color-light:#749592;
+    --panel-bg-color: #749592;
+    --widget-bg-color: #525162;
+    --widget-over-color: #353542;
+    --input-bg-color: #446668;
+    --text-color: #dfdfdf;
+  }
+  
+ .formbutton {
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    max-width: 420px;
+    outline: 0;
+    padding: 10px 0;
+    transition: background 0.3s;
+    width: 80%;
+  }
+
+ .primary {
+    background: var(--panel-bg-color);
+  }
+
+   .primary:hover {
+    background: var(--widget-over-color);
+  }
+  
+ .secondary {
+    background: var(--panel-bg-color);
+  }
+  .secondary:hover {
+    background: var(--widget-over-color);
+  }

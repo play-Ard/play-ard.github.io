@@ -1,7 +1,7 @@
 {
-  "name": "layoutdesigner",
-  "homepage": "https://play-ard.github.io/",
-  "proxy": "https://play-ard.github.io/",
+  "name": "playard",
+  "homepage": "playard.dev/",
+  "proxy": "https://playard.dev/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
