@@ -17,13 +17,9 @@ import Shop from './Pages/Shop'
 import Falan from './Pages/Falan'
 
 import LoginPage from './Pages/LoginPage'
+import TempLayout from './Layouts/TempLayout';
 
-
-import TempLayout from './Pages/TempLayout'
-
-import AdminPanelLayout from './Layouts/AdminPanelLayout';
-
-// const AdminPanelLayout = React.lazy(() => import('./Layouts/AdminPanelLayout'))
+const AdminPanelLayout = React.lazy(() => import('./Layouts/AdminPanelLayout'))
 
 const About = React.lazy(() => import('./Pages/About'))
 const Games = React.lazy(() => import('./Pages/Games'))
@@ -57,9 +53,9 @@ function App() {
               <Route exact path= { '/shop' } element={<Shop/>}/>
               <Route exact path= { '/games' } element={<Games/>}/>
 
-              <Route exact path= { '/adminpanel' } element={<AdminPanelLayout/>}/>
+              <Route exact path= { '/falan' } element={<Falan/>}/>
 
-              <Route exact path={ '/templayout' } element={<TempLayout/>}/>
+              <Route exact path={ '/templayout' } elemet={<TempLayout/>}/>
 
             </Routes>
 
