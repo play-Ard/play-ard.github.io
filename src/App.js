@@ -1,30 +1,46 @@
-import React, { useState } from 'react';
+import React, {Suspense } from 'react';
+
 import { ProjectsContext } from './Context/ProjectsContext';
+
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
-import LayoutDesigner from './pages/LayoutDesigner'
+import {BrowserRouter,  Routes, Route, HashRouter} from 'react-router-dom'
+import HomePage from './Pages/HomePage';
 
-import {BrowserRouter,  Routes, Route } from 'react-router-dom'
-import HomePage from './pages/HomePage';
-import Header from './Layouts/Header';
-import Millionaire from './pages/Millionaire';
-import Temp from './pages/Temp'
-import Games from './pages/Games'
-import About from './pages/About'
-import Documentation from './pages/Documentation';
-import MakeaGame from './pages/MakeaGame'
-import Contact from './pages/Contact'
-import Shop from './pages/Shop'
+import Millionaire from './Pages/Millionaire';
 
-import LoginPage from './pages/LoginPage'
+import MakeaGame from './Pages/MakeaGame'
+import Contact from './Pages/Contact'
+import Shop from './Pages/Shop'
+
+import LoginPage from './Pages/LoginPage'
+import TempLayout from './Layouts/TempLayout';
+
+
+
+const AdminPanelLayout = React.lazy(() => import('./Layouts/AdminPanelLayout'))
+
+const About = React.lazy(() => import('./Pages/About'))
+const Games = React.lazy(() => import('./Pages/Games'))
+const Documentation = React.lazy(() => import('./Pages/Documentation'))
+const LayoutDesigner = React.lazy(() => import('./Pages/LayoutDesigner'))
+
+const loading = (
+  <div className="pt-3 text-center">
+    <div className="sk-spinner sk-spinner-pulse"></div>
+  </div>
+)
 
 function App() {
   
   return (
     <React.Fragment>
    
-        <BrowserRouter>
+        <HashRouter>
+
+          <Suspense fallback={loading}>  {/* if the page loads, this action happens */}
+
             <Routes>
               <Route exact path='/' element={<HomePage/>}/>
               <Route exact path= { '/about' } element={<About/>}/>
@@ -36,8 +52,13 @@ function App() {
               <Route exact path= { '/contact' } element={<Contact/>}/>
               <Route exact path= { '/shop' } element={<Shop/>}/>
               <Route exact path= { '/games' } element={<Games/>}/>
+
+              <Route exact path={ '/templayout' } elemet={<TempLayout/>}/>
+
             </Routes>
-        </BrowserRouter>
+
+          </Suspense>
+        </HashRouter>
     
     </React.Fragment>
   );

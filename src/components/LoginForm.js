@@ -7,7 +7,7 @@ const LoginForm = () =>{
 
     return (
 
-    <div className="login-for main-frame ">
+    <div className="main-frame ">
       <img width={"30%"} src={logo} className="logo" alt="Business view - Reports" />
         <form className="form text-center " >
           <div className="row">

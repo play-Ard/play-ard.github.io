@@ -3,13 +3,15 @@ import React, { useState } from 'react';
 import { ProjectsContext } from '../Context/ProjectsContext';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
-import Button from 'react-bootstrap'
+
 import ComponentsPanel from '../sections/ComponentsPanel';
 import DesignerPanel from '../sections/DesignerPanel';
-import CollapsibleSidebar from '../sections/CollapsibleSidebar';
+
 import Header from '../Layouts/Header'
 import Footer from "../Layouts/Footer";
+
 const components = [
+
   { name: "Pixel", id: "pixelID" },
   { name: "Layout", id: "layoutID" },
   { name: "Rectangle", id: "rectID" },
@@ -17,6 +19,7 @@ const components = [
   { name: "Text", id: "textID" },
   { name: "Triangle", id: "triangleID" },
   { name: "Image", id: "imageID" },
+  
 ];
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Layouts/Header'
 import Footer from '../Layouts/Footer'
-import LoginForm from '../components/LoginForm'
+import LoginForm from '../Components/LoginForm'
 
 const LoginPage = () => {
 
@@ -11,10 +11,11 @@ const LoginPage = () => {
          
             <Header></Header>
 
+            <div className='containter'>
                 <h2> Kullanici Girisi</h2>
 
             <LoginForm></LoginForm>
-
+            </div>
             <Footer></Footer>
 
         </div>

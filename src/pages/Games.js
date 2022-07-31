@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Layouts/Header'
 import Footer from "../Layouts/Footer";
-import MCarousel from '../components/MCarousel'
+import MCarousel from '../Components/MCarousel'
 
 const Games = () => {
   return (

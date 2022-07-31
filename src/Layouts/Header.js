@@ -35,11 +35,11 @@ const Header = () =>
       </Nav>
     </Navbar.Collapse>
    
-    <Navbar.Brand className="background-changer grow text-center"href="https://play-ard.github.io/playard-education/">  <img style={{width:'65%'}} src={playardEducationLogo} alt="" /></Navbar.Brand>
-   
+  {/* <Navbar.Brand className="background-changer grow text-center"href="https://play-ard.github.io/playard-education/">  <img style={{width:'65%'}} src={playardEducationLogo} alt="" /></Navbar.Brand>*/}
+  <Button className="grow" variant="outline-dark"><Link style={{ color:'black', textDecoration: 'none'}} className="m-2" to='/login' > Kullanici Girisi  </Link></Button>
   </Container>
 
-  <Button variant="outline-dark"><Link style={{ color:'black', textDecoration: 'none'}} className="m-2" to='/login' > Kullanici Girisi  </Link></Button>
+
   
 </Navbar>
 </div>

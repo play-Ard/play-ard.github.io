@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import "react-dropdown/style.css";
-import DropdownComponent from '../components/DropdownComponent';
+import DropdownComponent from '../Components/DropdownComponent';
 import XMLArea from "./XMLArea";
 
 

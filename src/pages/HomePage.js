@@ -3,8 +3,6 @@ import Header from "../Layouts/Header";
 
 import logo from "../Assets/gifLogo.gif"
 
-
-import MCarousel from '../components/MCarousel'
 import Footer from "../Layouts/Footer";
 
 const HomePage = () => {
@@ -52,7 +50,7 @@ const HomePage = () => {
         <br />
         <div className="row">
           <div className="col grow">
-            <a target="_blank" href="https://github.com/play-Ard">
+            <a target="_blank" href="https://play-ard.github.io/playard-education/">
               <button
                 className="btn "
                 style={{ borderColor: "#B7CDD5", color: "#B7CDD5" }}
