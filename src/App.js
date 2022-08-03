@@ -3,6 +3,7 @@ import React, {Suspense } from 'react';
 import { ProjectsContext } from './Context/ProjectsContext';
 
 import 'bootstrap/dist/css/bootstrap.css';
+
 import './App.css';
 
 
@@ -14,14 +15,10 @@ import Millionaire from './Pages/Millionaire';
 import MakeaGame from './Pages/MakeaGame'
 import Contact from './Pages/Contact'
 import Shop from './Pages/Shop'
-
+import Panel from './Pages/Panel'
 
 import LoginPage from './Pages/LoginPage'
 
-
-
-
-// const AdminPanelLayout = React.lazy(() => import('./Layouts/AdminPanelLayout'))
 
 const About = React.lazy(() => import('./Pages/About'))
 const Games = React.lazy(() => import('./Pages/Games'))
@@ -55,7 +52,7 @@ function App() {
               <Route path= { '/shop' } element={<Shop/>}/>
               <Route path= { '/games' } element={<Games/>}/>
 
-  
+              <Route path= { '/panel/*' } element={<Panel/>}/>
 
             </Routes>
 

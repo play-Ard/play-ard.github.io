@@ -4,6 +4,9 @@ import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import logoText from "../Assets/Formal.svg"
 import playardEducationLogo from "../Assets/EducationBlack.svg"
 import Button from 'react-bootstrap/Button';
+
+import PlayardPanel from '../Assets/PlayardPanel.png'
+
 const Header = () =>
 (
 
@@ -25,7 +28,7 @@ const Header = () =>
         <Link style={{color:'black', textDecoration: 'none'}} className="m-2" to='/contact'> Contact </Link>
         <Link style={{color:'black', textDecoration: 'none'}} className="m-2" to='/shop'> Shop </Link>
 
-        <NavDropdown style={{color:"black"}}title="Games" id="basic-nav-dropdown">
+        <NavDropdown style={{color:"black"}} title="IoT Games" id="basic-nav-dropdown">
         <Link style={{color:'1c1c1c', textDecoration: 'none'}} className="m-2" to='/millionaire'> Millionaire </Link>
       
           <NavDropdown.Divider />
@@ -34,9 +37,9 @@ const Header = () =>
 
       </Nav>
     </Navbar.Collapse>
-   
+ 
   {/* <Navbar.Brand className="background-changer grow text-center"href="https://play-ard.github.io/playard-education/">  <img style={{width:'65%'}} src={playardEducationLogo} alt="" /></Navbar.Brand>*/}
-  <Button className="grow" variant="outline-dark"><Link style={{ color:'black', textDecoration: 'none'}} className="m-2" to='/login' > Kullanici Girisi  </Link></Button>
+  <Button className="grow" variant="outline-dark"><Link style={{ color:'black', textDecoration: 'none'}} className="m-2" to='/panel' > Playard Panel  </Link></Button>
   </Container>
 
 
