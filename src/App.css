@@ -5,7 +5,7 @@
 }
 
 :root{
-  --main-bg-color-dark: #293c43;
+  --main-bg-color-dark: #ffca10;
   --main-bg-color-light:#749592;
   --panel-bg-color: #749592;
   --widget-bg-color: #525162;
@@ -28,8 +28,8 @@ body{
 .main-frame {
 
   color: var(--text-color);
-  width: 63%;
-  height: 63%;
+  width: 55%;
+  height: 55%;
  
   top:0;
   bottom: 0;

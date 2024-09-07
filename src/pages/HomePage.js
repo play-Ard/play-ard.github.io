@@ -5,6 +5,13 @@ import logo from "../Assets/gifLogo.gif"
 
 import Footer from "../Layouts/Footer";
 
+import CSlider from "../Layouts/CSlider";
+
+
+import ThreeDViewer from "../Components/ThreeDViewer";
+
+import logo_revised from "../Assets/logo.svg"
+
 const HomePage = () => {
   return (
     <div className="text-center">
@@ -14,7 +21,9 @@ const HomePage = () => {
         <div className="main-frame">
           <div className="row">
             <div className="col">
-              <h1>OPEN SOURCE RETRO GAME CONSOLE</h1>
+
+              <h1>Devices That Evolves With Community</h1>
+
             </div>
           </div>
 
@@ -23,27 +32,14 @@ const HomePage = () => {
           <a href="/about">
             <button className="bg-transparent " style={{ border: "None" }}>
                 
-              <div style={{ border: "0" }} className="card bg-transparent grow">
-                <div className="d-flex justify-content-center">
-                  <img
-                    style={{
-                    
-                    }}
-                    className="img-fluid grov"
-                    src={logo}
-                    alt="Card image cap"
-                    width="400" 
-                  />
-                </div>
 
-                <br />
-
-              </div>
+              </button>
+              </a>
+              <ThreeDViewer></ThreeDViewer>
               <h5 style={{ color: "white" }} className="card-title">
-                  Retro Game Console
-                </h5>
-            </button>
-            </a>
+                  Playard Retro PCB
+              </h5>
+            
           </div>
         </div>
         <br />

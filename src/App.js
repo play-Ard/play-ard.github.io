@@ -18,6 +18,7 @@ import Shop from './Pages/Shop'
 import Panel from './Pages/Panel'
 
 import LoginPage from './Pages/LoginPage'
+import Roadmap from './Pages/Roadmap';
 
 
 const About = React.lazy(() => import('./Pages/About'))
@@ -42,7 +43,8 @@ function App() {
 
             <Routes>
               <Route path='/' element={<HomePage/>}/>
-              <Route path= { '/about' } element={<About/>}/>s
+              <Route path= { '/about' } element={<About/>}/>
+              <Route path= { '/roadmap' } element={<Roadmap/>}/>s
               <Route path= { '/login' } element={<LoginPage/>}/>
               <Route path= { '/millionaire' } element={<Millionaire/>}/>
               <Route path= { '/layoutdesigner' } element={<LayoutDesigner/>}/>
@@ -51,9 +53,7 @@ function App() {
               <Route path= { '/contact' } element={<Contact/>}/>
               <Route path= { '/shop' } element={<Shop/>}/>
               <Route path= { '/games' } element={<Games/>}/>
-
               <Route path= { '/panel/*' } element={<Panel/>}/>
-
             </Routes>
 
           </Suspense>

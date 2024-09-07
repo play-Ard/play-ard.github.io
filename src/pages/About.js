@@ -5,53 +5,77 @@ const About = () => {
   return (
     <div>
 
-        <Header></Header>
+   <Header></Header> 
 
-        <div className="main-frame">
-            
+      <div className="main-frame">
+
         <div className="card">
-        <div class="card-body text-center">
-            <div style={{color:'black'}}className="card-title text-center">
-                       <h2>WHAT IS PLAYARD ?</h2>
+          <div class="card-body text-center">
+            <div style={{ color: 'black' }} className="card-title text-center">
+              <h2>WHAT IS PLAYARD?</h2>
             </div>
-            <p style={{color:'black'}} class="card-text text-center">
-It is an open-source educational project that aims to impose today's technologies on people in a fun way and they can be involved in the development of the project.</p>
+            <p style={{ color: 'black' }} class="card-text text-center">
+              Playard is an open-source, community-driven platform that brings today's technology to life in an enjoyable and educational way. Our mission is to empower users to get hands-on with technology, fostering creativity and innovation while contributing to the project's development.</p>
 
+          </div>
         </div>
-        </div>    
         <br />
         <div className="card">
-        <div class="card-body text-center">
-            <div style={{color:'black'}}className="card-title text-center">
-                       <h2>What have we done so far ?</h2>
+          <div class="card-body text-center">
+            <div style={{ color: 'black' }} className="card-title text-center">
+              <h2>WHAT HAVE WE ACHIEVED SO FAR?</h2>
             </div>
-            <p style={{color:'black'}} class="card-text text-center">
-            We wanted to develop the idea of ​​a retro game console made abroad using a microcontroller. We started working on it.
-We set our microcontroller as **ESP32**.
-We worked on the coding. We also stored and shared the codes we wrote on GitHub.
-With new research and brainstorming, we reached a solution for every problem that came our way.
-We wanted to develop our project in line with the events we participated in and the information we gained, and we brought up our idea of ​​IoT (Internet of Things). Our game console can connect to the wireless internet and we get the data used in the game over the internet, eliminating the memory problem.
-Another innovation that we do not have in other projects is that we have created a design window on our website where we can easily design a game. All our users will be able to design the images of their own games using this system.</p>
-      
+            <p style={{ color: 'black' }} class="card-text text-center">
+              We began our journey by building a retro game console powered by the ESP32 microcontroller. Our aim was to create a device that merged the charm of retro gaming with modern technology. As we developed, we shared our progress and code openly on GitHub, allowing others to join in and contribute.
+
+              Over time, we incorporated IoT capabilities, enabling our console to connect to the internet and retrieve game data, solving memory constraints. One of our unique innovations is an intuitive game design tool on our website, empowering users to create custom game visuals effortlessly.</p>
+
+          </div>
         </div>
-        </div>   
         <br />
         <div className="card">
-        <div class="card-body text-center">
-            <div style={{color:'black'}}className="card-title text-center">
-                       <h2>
-What are our tools and goals ?</h2>
+          <div class="card-body text-center">
+            <div style={{ color: 'black' }} className="card-title text-center">
+              <h2>OUR TOOLS AND GOALS</h2>
             </div>
-            <p style={{color:'black'}} class="card-text text-center">
-            The concept of our product is for first-hand testing of software technologies and applications.
-Our vehicles; are the electronic, software parts and systems we use. At the same time, each of our users who use our project becomes a supporter for the development of the project.
-It is our goal to convey the algorithm logic and game design fundamentals to our users and to improve their application skills.</p>
-    
+            <p style={{ color: 'black' }} class="card-text text-center">
+              Our product is built for hands-on experimentation with software technologies and applications. We leverage electronic components, software systems, and an open framework that invites user collaboration.
+
+              Our ultimate goal is to teach users the fundamentals of algorithms and game design, while helping them develop real-world application skills. With Playard, every user becomes an active participant in pushing the boundaries of what's possible in gaming and technology.</p>
+
+          </div>
         </div>
-        </div>   
-            
+
+        <br />
+
+        <div className="card">
+          <div class="card-body text-center">
+            <div style={{ color: 'black' }} className="card-title text-center">
+              <h2>MEET THE TEAM</h2>
+            </div>
+            <p style={{ color: 'black' }} class="card-text text-center">
+              Playard is built by a small team of passionate developers and makers, united by the desire to bring fun and accessible technology to everyone. We're constantly exploring new ideas and inviting the community to join in our journey.
+            </p>
+          </div>
         </div>
-        <Footer></Footer>
+
+
+
+        <br />
+
+        <div className="card">
+          <div class="card-body text-center">
+            <div style={{ color: 'black' }} className="card-title text-center">
+              <h2>WHAT’S NEXT?</h2>
+            </div>
+            <p style={{ color: 'black' }} class="card-text text-center">
+              Our future plans include expanding the Playard ecosystem with new modular components, advanced coding challenges, and multiplayer support for games. Stay tuned as we continue to innovate and bring exciting features to the community!
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <Footer></Footer>
     </div>
   )
 }

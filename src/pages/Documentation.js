@@ -1,31 +1,42 @@
 import React from 'react'
 import Header from '../Layouts/Header'
 import Footer from "../Layouts/Footer"
+import logo from "../Assets/Black MC.svg"
 
 const Documentation = () => {
-  return (
-    <div>
+    return (
+        <div>
 
-        <Header></Header>
+            <Header></Header>
 
-        <div className="main-frame text-center">
+            <div style={{ border: '0' }} className="card bg-transparent">
+                <div class="card-body text-center">
 
-            <div classNameName="row">
-                <div className="list-group ">
-                    <a style={{border:0}} href="#" className="list-group-item list-group-item-action active bg-dark">
-                        Make Your Own PlayArd
-                    </a> 
-                    <a href="#" className="list-group-item list-group-item-action grow">playArd <hr /></a>
-                    <a href="#" className="list-group-item list-group-item-action grow">playArd <hr /> </a>
-                    <a href="#" className="list-group-item list-group-item-action grow">playArd <hr /> </a>
-                    <a href="#" className="list-group-item list-group-item-action grow">playArd <hr /> </a>
+                    <img style={{
+                        filter: "brightness(0) invert(1)",
+                        width: "35%",
+                        textAlign: "center",
+                    }} className="card-img-top grow" src={logo} alt="Card image cap"></img>
+
+                    <div className="loading">
+                        <h2>COMING SOON</h2>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
                 </div>
-            </div>    
-        
+            </div>
+
+            <br />
+            <br />
+            <Footer></Footer>
         </div>
-<Footer></Footer>
-    </div>
-  )
+    )
 }
 
 export default Documentation
